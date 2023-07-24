@@ -18,6 +18,7 @@
 		CDFC04582A6E9E1700B11E67 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC04572A6E9E1700B11E67 /* RecordView.swift */; };
 		CDFC045B2A6E9E4600B11E67 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC045A2A6E9E4600B11E67 /* ProfileView.swift */; };
 		CDFC045D2A6E9F1300B11E67 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC045C2A6E9F1300B11E67 /* HomeModel.swift */; };
+		CDFC045F2A6EA66100B11E67 /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC045E2A6EA66100B11E67 /* RecordModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		CDFC04572A6E9E1700B11E67 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		CDFC045A2A6E9E4600B11E67 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		CDFC045C2A6E9F1300B11E67 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		CDFC045E2A6EA66100B11E67 /* RecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				CDFC04572A6E9E1700B11E67 /* RecordView.swift */,
+				CDFC045E2A6EA66100B11E67 /* RecordModel.swift */,
 			);
 			path = Record;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				CDFC04582A6E9E1700B11E67 /* RecordView.swift in Sources */,
 				CDFC045D2A6E9F1300B11E67 /* HomeModel.swift in Sources */,
 				CDFC045B2A6E9E4600B11E67 /* ProfileView.swift in Sources */,
+				CDFC045F2A6EA66100B11E67 /* RecordModel.swift in Sources */,
 				CDFC042A2A6D4F7E00B11E67 /* ContentView.swift in Sources */,
 				CDFC04282A6D4F7E00B11E67 /* HealthRecordApp.swift in Sources */,
 			);

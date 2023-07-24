@@ -14,6 +14,10 @@
 		CDFC04392A6D4F7F00B11E67 /* HealthRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC04382A6D4F7F00B11E67 /* HealthRecordTests.swift */; };
 		CDFC04432A6D4F7F00B11E67 /* HealthRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC04422A6D4F7F00B11E67 /* HealthRecordUITests.swift */; };
 		CDFC04452A6D4F7F00B11E67 /* HealthRecordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC04442A6D4F7F00B11E67 /* HealthRecordUITestsLaunchTests.swift */; };
+		CDFC04552A6E9D4000B11E67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC04542A6E9D4000B11E67 /* HomeView.swift */; };
+		CDFC04582A6E9E1700B11E67 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC04572A6E9E1700B11E67 /* RecordView.swift */; };
+		CDFC045B2A6E9E4600B11E67 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC045A2A6E9E4600B11E67 /* ProfileView.swift */; };
+		CDFC045D2A6E9F1300B11E67 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC045C2A6E9F1300B11E67 /* HomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		CDFC043E2A6D4F7F00B11E67 /* HealthRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFC04422A6D4F7F00B11E67 /* HealthRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecordUITests.swift; sourceTree = "<group>"; };
 		CDFC04442A6D4F7F00B11E67 /* HealthRecordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDFC04542A6E9D4000B11E67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDFC04572A6E9E1700B11E67 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		CDFC045A2A6E9E4600B11E67 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CDFC045C2A6E9F1300B11E67 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		CDFC04262A6D4F7E00B11E67 /* HealthRecord */ = {
 			isa = PBXGroup;
 			children = (
+				CDFC04592A6E9E3D00B11E67 /* Profile */,
+				CDFC04562A6E9E0B00B11E67 /* Record */,
+				CDFC04512A6E9D2900B11E67 /* Home */,
 				CDFC04272A6D4F7E00B11E67 /* HealthRecordApp.swift */,
 				CDFC04292A6D4F7E00B11E67 /* ContentView.swift */,
 				CDFC042B2A6D4F7F00B11E67 /* Assets.xcassets */,
@@ -125,6 +136,31 @@
 				CDFC04442A6D4F7F00B11E67 /* HealthRecordUITestsLaunchTests.swift */,
 			);
 			path = HealthRecordUITests;
+			sourceTree = "<group>";
+		};
+		CDFC04512A6E9D2900B11E67 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC04542A6E9D4000B11E67 /* HomeView.swift */,
+				CDFC045C2A6E9F1300B11E67 /* HomeModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CDFC04562A6E9E0B00B11E67 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC04572A6E9E1700B11E67 /* RecordView.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		CDFC04592A6E9E3D00B11E67 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC045A2A6E9E4600B11E67 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFC04552A6E9D4000B11E67 /* HomeView.swift in Sources */,
+				CDFC04582A6E9E1700B11E67 /* RecordView.swift in Sources */,
+				CDFC045D2A6E9F1300B11E67 /* HomeModel.swift in Sources */,
+				CDFC045B2A6E9E4600B11E67 /* ProfileView.swift in Sources */,
 				CDFC042A2A6D4F7E00B11E67 /* ContentView.swift in Sources */,
 				CDFC04282A6D4F7E00B11E67 /* HealthRecordApp.swift in Sources */,
 			);

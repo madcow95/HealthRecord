@@ -8,26 +8,15 @@
 import SwiftUI
 
 struct RecordView: View {
-    @State var isSelecting = false
+    
+    var firstSelection: Record = Record()
     
     var body: some View {
-        VStack {
-            HStack {
-                Text("선택하세요.")
-                    .font(.system(size: 16, weight: .semibold, design: .rounded))
-                Spacer()
-                Image(systemName: "chevron.down")
-                    .font(.system(size: 16, weight: .semibold))
+        
+        List {
+            ForEach(firstSelection.getAllFirstSelection(), id: \.self) {selection in
+                Text(selection.rawValue)
             }
-            .padding(.horizontal)
-            .foregroundColor(.white)
-        }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical)
-        .background(Color(uiColor: UIColor.black))
-        .cornerRadius(5)
-        .onTapGesture {
-            isSelecting.toggle()
         }
     }
 }

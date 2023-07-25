@@ -15,6 +15,7 @@ struct ContentView: View {
                     Image(systemName: "list.bullet.clipboard")
                     Text("List")
                 }
+                .padding(.horizontal)
             
             HomeView()
                 .tabItem {

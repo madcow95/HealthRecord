@@ -16,16 +16,17 @@ struct HomeView: View {
     ]
     
     var body: some View {
-        Table(people) {
-            TableColumn("Given Name") { test in
-                Text(test.givenName)
-            }
-            .width(50)
-            
-            TableColumn("TEST", value: \.familyName)
-                .width(100)
-        }
-        .padding(.horizontal)
+        Text("Table will set here")
+//        Table(people) {
+//            TableColumn("Given Name") { test in
+//                Text(test.givenName)
+//            }
+//            .width(50)
+//
+//            TableColumn("TEST", value: \.familyName)
+//                .width(100)
+//        }
+//        .padding(.horizontal)
 //        VStack {
 //            Button("운동 기록") {
 //                print("dd")

@@ -17,6 +17,7 @@ struct HomeView: View {
     
     var body: some View {
         Text("Table will set here")
+//        이러면 안되는데......
 //        Table(people) {
 //            TableColumn("Given Name") { test in
 //                Text(test.givenName)

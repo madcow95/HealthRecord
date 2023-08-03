@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// 앱은 어떻게 만드는걸까
+
+
 struct RecordView: View {
     
     var firstSelection: Record = Record()
